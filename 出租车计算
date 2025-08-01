@@ -1,0 +1,17 @@
+def callculate_taxi_fare(distance)
+if distance <=0:
+   return 0
+elif distance <=3:
+   return 13
+total_face=13
+  remainin_distance =distance -3
+if remaining_diatance  <=12:
+   total _fare += ewmining_distance *2.3
+else
+  total_fare +=12*2.3
+  total_fare +=(remaining_distance -12)*2.3*1.5
+return round(total_fare,1)
+if_ _name_ _=="_ _main_ _":
+  test_distance =[2,3,5,10,15,20,25]
+for dist in test_distances:\
+ print(f"行驶距离：{dist}公理,费用：{calculate_taxi_fare(dist)}元")
